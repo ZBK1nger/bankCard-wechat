@@ -1,0 +1,29 @@
+<view class='enroll-item'>
+  <view class='item-title'>收款人姓名</view>
+  <view class='item-xing'>*</view>
+  <input class='item-content' type='text' placeholder='请输入姓名' bindinput='getUserIdCardName'></input>
+</view>
+<view class='enroll-item' style="margin-top: 2rpx;">
+  <view class='item-title'>手机号</view>
+  <view class='item-xing'>*</view>
+  <input class='item-content' type='number' placeholder='请输入手机号' bindinput='getUserIdCardPhoneNumber'></input>
+</view>
+<view class='enroll-item' style="margin-top: 2rpx;">
+  <view class='item-title'>银行卡号</view>
+  <view class='item-xing'>*</view>
+  <input class='item-content' type='number' placeholder='请输入银行卡号' bindinput='getUserIdCardNumber'></input>
+</view>
+<view class='enroll-item' style="margin-top: 2rpx;">
+  <view class='item-title'>卡类型</view>
+  <view class='item-xing'>*</view>
+  <input class='item-content' value='{{cardType}}' disabled='true'></input>
+</view>
+<view class='bank-reminder'>可电话咨询银行开户行</view>
+<view class='enroll-item' style="margin-top: 2rpx;">
+  <view class='item-title'>支行名称</view>
+  <view class='item-xing'>*</view>
+  <input class='item-content' type='text' placeholder='请输入支行名称' bindinput='getUserIdCardBankType'></input>
+</view>
+<view class='withdraw-note'>提现须知</view>
+<view class='bank-reminder'>请在上方填写您的真实的个人信息并与身份证信息一致，信息出错或者不一致会导致您提现失效。我们承诺您的资料只会在本平台用户提现打款时使用不会对外使用，请放心填写。</view>
+<view class='sign-up' bindtap='submitInfos'>提交</view>

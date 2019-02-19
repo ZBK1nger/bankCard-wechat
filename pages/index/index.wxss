@@ -1,0 +1,60 @@
+
+page {
+  background-color: #eaeaea;
+}
+.container {
+  padding: 0rpx;
+}
+
+.enroll-item {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 750rpx;
+  height: 80rpx;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.item-title {
+  font-size: 30rpx;
+  color: #8a8a8a;
+  white-space: nowrap;
+  margin-left: 24rpx;
+}
+
+.item-xing {
+  color: #fc6262;
+}
+
+.item-content {
+  font-size: 28rpx;
+  color: #8a8a8a;
+  flex: 1;
+  text-align: right;
+  padding-right: 24rpx;
+}
+.withdraw-note {
+  font-size: 30rpx;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.bank-reminder {
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  color: #8a8a8a;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+.sign-up {
+  font-size: 30rpx;
+  height: 96rpx;
+  display: flex;
+  margin-top: 24rpx;
+  justify-content: center;
+  align-items: center;
+  background-color: #3dc2ed;
+  width: 100%;
+  color: white;
+}
