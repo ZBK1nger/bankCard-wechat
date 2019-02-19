@@ -1,7 +1,6 @@
 # bankCard-wechat
 
-###详情代码以及使用参照示例，如果对你有所帮助的请给个Star✨~
-
+### 详情代码以及使用参照示例，如果对你有所帮助的请给个Star✨~
 
 ### 简介
 ![屏幕快照 2018-05-29 下午2.03.10.png](https://upload-images.jianshu.io/upload_images/1396824-1e632bc586f631da.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
